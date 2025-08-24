@@ -293,7 +293,7 @@ export function Footer() {
               <div className="flex items-center space-x-4 text-green-200">
                 <div className="flex items-center space-x-2">
                   <span className="text-sm">Feito por</span>
-                  <span className="text-sm font-bold">Gente Grande</span>
+                  <span className="text-sm font-bold">Victor, Samy, Giovani e Atilio.</span>
                 </div>
               </div>
             </div>
