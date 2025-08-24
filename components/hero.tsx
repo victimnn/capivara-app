@@ -60,8 +60,46 @@ export function Hero() {
             </CardContent>
           </Card>
 
+          {/* Roblox Game Section */}
+          <div className="mt-12 mb-8">
+            <Card className="max-w-4xl mx-auto bg-gradient-to-r from-orange-50 via-yellow-50 to-orange-50 border-2 border-orange-200 shadow-xl hover:shadow-2xl transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="text-center">
+                  <div className="inline-flex items-center space-x-3 mb-4 p-3 bg-orange-100 rounded-full">
+                    <span className="text-2xl">🎮</span>
+                    <span className="text-orange-700 font-bold text-lg">Capivara Simulator!</span>
+                  </div>
+                  
+                  <h3 className="text-2xl md:text-3xl font-bold text-orange-800 mb-4">
+                    Viva como uma Capivara no Roblox!
+                  </h3>
+                  
+                  <p className="text-lg text-orange-700 mb-6 leading-relaxed">
+                    Entre em uma aventura onde você <span className="font-bold">é uma capivara</span> em busca da liberdade, 
+                    explore habitats naturais e aprenda sobre esses animais incríveis de forma única!
+                  </p>
+                  
+                  <div className="flex flex-wrap justify-center gap-3 mb-6">
+                    <span className="px-4 py-2 bg-orange-200 text-orange-800 rounded-full text-sm font-semibold">🏊‍♂️ Natação</span>
+                    <span className="px-4 py-2 bg-orange-200 text-orange-800 rounded-full text-sm font-semibold">🌿 Exploração</span>
+                    <span className="px-4 py-2 bg-orange-200 text-orange-800 rounded-full text-sm font-semibold">🦦 Interação</span>
+                    <span className="px-4 py-2 bg-orange-200 text-orange-800 rounded-full text-sm font-semibold">🎯 Desafios</span>
+                  </div>
+                  
+                  <Button 
+                    size="lg" 
+                    className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-10 py-6 text-xl font-bold rounded-2xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+                    onClick={() => window.open('https://www.roblox.com/games/your-game-id', '_blank')}
+                  >
+                    🚀 JOGAR AGORA!
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
           {/* Call to Action */}
-          <div className="mt-12">
+          <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-8 py-6 text-lg font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
