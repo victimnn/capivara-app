@@ -29,7 +29,7 @@ export function TaxonomySection() {
     },
     { 
       label: "Nome Científico", 
-      value: "Hydrochoerus hydrochaeris",
+      value: <em>Hydrochoerus hydrochaeris</em>,
       icon: Dna,
       color: "from-blue-500 to-cyan-500",
       bgColor: "from-blue-50 to-cyan-50",
@@ -37,7 +37,7 @@ export function TaxonomySection() {
     },
     { 
       label: "Gênero", 
-      value: "Hydrochoerus",
+      value: <em>Hydrochoerus</em>,
       icon: Leaf,
       color: "from-green-500 to-emerald-500",
       bgColor: "from-green-50 to-emerald-50",
@@ -45,7 +45,7 @@ export function TaxonomySection() {
     },
     { 
       label: "Família", 
-      value: "Caviidae",
+      value: <em>Caviidae</em>,
       icon: Heart,
       color: "from-red-500 to-pink-500",
       bgColor: "from-red-50 to-pink-50",
@@ -53,7 +53,7 @@ export function TaxonomySection() {
     },
     { 
       label: "Ordem", 
-      value: "Rodentia",
+      value: <em>Rodentia</em>,
       icon: Zap,
       color: "from-yellow-500 to-orange-500",
       bgColor: "from-yellow-50 to-orange-50",
@@ -61,7 +61,7 @@ export function TaxonomySection() {
     },
     { 
       label: "Classe", 
-      value: "Mammalia",
+      value: <em>Mammalia</em>,
       icon: Crown,
       color: "from-purple-500 to-indigo-500",
       bgColor: "from-purple-50 to-indigo-50",
@@ -69,7 +69,7 @@ export function TaxonomySection() {
     },
     { 
       label: "Filo", 
-      value: "Chordata",
+      value: <em>Chordata</em>,
       icon: Globe,
       color: "from-teal-500 to-cyan-500",
       bgColor: "from-teal-50 to-cyan-50",
@@ -77,7 +77,7 @@ export function TaxonomySection() {
     },
     { 
       label: "Reino", 
-      value: "Animalia",
+      value: <em>Animalia</em>,
       icon: Sparkles,
       color: "from-indigo-500 to-purple-500",
       bgColor: "from-indigo-50 to-purple-50",
@@ -221,7 +221,7 @@ export function TaxonomySection() {
                   </h4>
                   <p className="text-blue-700 leading-relaxed">
                     A capivara é o maior roedor existente, com características semi-aquáticas 
-                    que a distinguem de outros membros da ordem Rodentia.
+                    que a distinguem de outros membros da ordem <em>Rodentia</em>.
                   </p>
                 </div>
                 
@@ -231,7 +231,7 @@ export function TaxonomySection() {
                     Distribuição Evolutiva
                   </h4>
                   <p className="text-emerald-700 leading-relaxed">
-                    Sua classificação na família Caviidae reflete sua evolução na América do Sul, 
+                    Sua classificação na família <em>Caviidae</em> reflete sua evolução na América do Sul, 
                     onde desenvolveu adaptações únicas para seu habitat.
                   </p>
                 </div>
