@@ -1,0 +1,16 @@
+{
+  "name": "Capivara App",
+  "short_name": "Capivara",
+  "description": "Site completo sobre capivaras: taxonomia, habitat, comportamento, conservação e curiosidades",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#16a34a",
+  "icons": [
+    {
+      "src": "/capivara.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}
